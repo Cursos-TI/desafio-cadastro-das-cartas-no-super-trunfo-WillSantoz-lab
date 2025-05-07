@@ -9,6 +9,8 @@ int main(){
    int pontos_turisticos;
    float area;
    float PIB;
+   float densidade_popilacional = populacao / area;
+   float PIB_percapita = PIB / populacao;
 
    char estado2[10]; // aqui defini as variáveis da segunda carta
    char codigo2[10];
@@ -17,6 +19,8 @@ int main(){
    int pontos_turisticos2;
    float area2;
    float PIB2;
+   float densidade_popilacional2 = populacao2 / area2;
+   float PIB_percapita2 = PIB2 / populacao2;
 
 
    // cadastro da carta 1
@@ -41,6 +45,11 @@ int main(){
    printf("PIB: \n");
    scanf("%f", &PIB);
 
+   // Cálculos da carta 1
+   densidade_popilacional = populacao / area;
+   PIB_percapita = PIB / populacao;
+
+
 
    // Cadastro da carta 2
    printf("Digite seu Estado: \n");
@@ -63,6 +72,10 @@ int main(){
 
    printf("PIB: \n");
    scanf("%f", &PIB2);
+
+   // Cálculos da carta 1
+   densidade_popilacional2 = populacao2 / area2;
+   PIB_percapita2 = PIB2 / populacao2;
 
 
    //impressão das cartas: 
