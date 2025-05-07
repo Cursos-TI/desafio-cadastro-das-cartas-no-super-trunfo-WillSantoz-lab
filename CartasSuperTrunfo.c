@@ -9,8 +9,8 @@ int main(){
    int pontos_turisticos;
    float area;
    float PIB;
-   float densidade_popilacional = populacao / area;
-   float PIB_percapita = PIB / populacao;
+   float densidade_popilacional = populacao / area; // aqui defini a variável "densidade_populacional da carta 1, sendo ela a divisão de população por área."
+   float PIB_percapita = PIB / populacao; // aqui defini a variável PIB_percapita da carta 1, sendo ela a divisão de PIB por população.
 
    char estado2[10]; // aqui defini as variáveis da segunda carta
    char codigo2[10];
@@ -19,7 +19,7 @@ int main(){
    int pontos_turisticos2;
    float area2;
    float PIB2;
-   float densidade_popilacional2 = populacao2 / area2;
+   float densidade_popilacional2 = populacao2 / area2;// defini as mesmas variáveis de operadores matemáticos da carta 1 para a carta 2.
    float PIB_percapita2 = PIB2 / populacao2;
 
 
@@ -46,7 +46,7 @@ int main(){
    scanf("%f", &PIB);
 
    // Cálculos da carta 1
-   densidade_popilacional = populacao / area;
+   densidade_popilacional = populacao / area; // Adicionei operadores matemáticos calculando os dados da carta 1 após a leitura da entrada dos dados de: "populacao e area".
    PIB_percapita = PIB / populacao;
 
 
@@ -74,7 +74,7 @@ int main(){
    scanf("%f", &PIB2);
 
    // Cálculos da carta 1
-   densidade_popilacional2 = populacao2 / area2;
+   densidade_popilacional2 = populacao2 / area2; // 
    PIB_percapita2 = PIB2 / populacao2;
 
 
